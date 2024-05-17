@@ -1,0 +1,103 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(48, 59, 8);
+}
+.content{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}    
+.container{
+    height: 60vh;
+    width: 35vw;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly ;
+    border-radius: 5px;
+    
+}
+.container *{
+    font-family: "Poppins",sans-serif;
+    border: none;
+    outline: none;
+}
+
+
+.inputs-wrapper input {
+    width: 30vw;
+    padding: 10px;
+    margin-top: 18px;
+    background-color: rgb(216, 210, 202);
+    border: none;
+    border-radius: 2px;
+   
+}
+
+
+button{
+    display: block;
+   
+    padding: 13px 10px;
+    border: none;
+    margin-right: 20px;
+    background-color: black;
+    color: white;
+    margin-top: 8px;
+  
+    font-weight: 700;
+    position: absolute;
+    border-radius: 2px;
+    top: 170px;
+}
+input{
+    width: 60%;
+    padding: 0 20px;
+    font-size: 14px;
+}
+button{
+    width: 30%;
+    float: right;
+}
+.outputs-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.outputs-wrapper div{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(48, 59, 8);
+    border-radius: 5px;
+    color: #ffffff;
+    display: grid;
+    place-items: center;
+    padding: 20px 0;
+    box-shadow: 0 15px 20px rgba(0,0,0,0.3);
+    margin-left: 12px;
+    margin-right: 12px;
+}
+span{
+    font-size: 30px;
+    font-weight: 500;
+}
+p{
+    font-size: 14px;
+    color: #707070;
+    font-weight: 400;
+}
+h1{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
